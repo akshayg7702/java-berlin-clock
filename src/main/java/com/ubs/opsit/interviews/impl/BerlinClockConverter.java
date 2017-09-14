@@ -5,6 +5,11 @@ import org.apache.log4j.Logger;
 
 import com.ubs.opsit.interviews.util.Constants;
 
+/**
+ * This class will convert the digital hours, minutes and seconds to Berlin Clock representation.
+ * 
+ * @author Akshay
+ */
 public class BerlinClockConverter {
 	private Logger log = Logger.getLogger(BerlinClockConverter.class);
 
