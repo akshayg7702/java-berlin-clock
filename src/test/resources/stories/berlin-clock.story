@@ -35,12 +35,12 @@ RRRO
 YYRYYRYYRYY
 YYYY
 
-Scenario: Midnight
-When the time is 24:00:00
+Scenario: One Hour Before Midnight (Modified the scenario since hour can not be more than 23 in 24-hour format time)
+When the time is 23:00:00
 Then the clock should look like
 Y
 RRRR
-RRRR
+RRRO
 OOOOOOOOOOO
 OOOO
 
